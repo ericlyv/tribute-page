@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;	
+      margin: 0;
+      padding: 0;
+  }
+  
+  body{
+      font-size: 20px;
+  }
+  
+  .header, main, .footer{
+      max-width: 960px;
+      margin: auto;
+  }
+  
+  
+  /* HEADER STYLE START*/
+  .header-wrap{
+      background: rgb(0, 36, 72);
+  }
+  
+  .header{
+      text-align: center;
+      padding: 25px;
+  }
+  
+  h1{
+      font-family: 'Roboto', sans-serif;
+      font-size: 2.5em;
+      color: #FFF;
+      margin: 20px;
+  }
+  
+  .info{
+      font-size: 1.5em;
+      color: #DDD;
+      padding: 20px;
+  }
+  /* HEADER STYLE END */
+  
+  /* MAIN STYLE START */
+  main{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  img {
+    max-width: 350px;
+       display: block;
+    height: auto;
+      border-radius: 50%;
+      margin: 75px auto 15px;
+      box-shadow: 1px 1px 10px 1px #333;
+  }
+  
+  .caption{
+      font-style: italic;
+      text-align: center;
+      font-size: 0.9em;
+  }
+  
+  .tribute-style{
+      margin: 75px 50px 25px;
+  }
+  
+  ul{
+      padding: 20px 50px;
+  }
+  ul li{
+      margin-bottom: 5px;
+  }
+  
+  .link{
+      padding-bottom: 40px;
+      text-align: center;
+      font-size: 1.3em;
+  }
+  
+  .year{
+      font-weight: bold;
+  }
+  /* MAIN STYLE END */
+  
+  /* FOOTER STYLE START*/
+  .footer-wrap{
+      background: rgb(0, 36, 72);
+  }
+  
+  .footer{
+      color: #FFF;
+      padding: 20px 0;
+      text-align: center;
+  }
+  
+  .name{
+      font-style: italic;
+      font-weight: bold;
+      color: orange;
+  }
+  /* FOOTER STYLE END */
+  
+  
+  /* MEDIA QUERY 800*/
+  @media screen and (max-width: 800px){
+      body{
+          font-size: 18px;
+      }
+  
+      img {
+          max-width: 300px;
+      }
+  
+  
+      .tribute-style{
+          margin: 65px 30px 20px;
+      }
+  
+      ul{
+          padding: 15px 40px;
+      }
+  
+      .link{
+          padding-bottom: 30px;
+          font-size: 1.2em;
+      }
+  
+      .footer{
+          padding: 15px 0;
+      }
+  }
+  /* MEDIA QUERY 800 END */
+  
+  /* MEDIA QUERY 600*/
+  @media screen and (max-width: 600px){
+      body{
+          min-width: 320px;
+          font-size: 16px;
+      }
+      .header{
+          padding: 20px;
+      }
+  
+      h1{
+          font-size: 1.9em;
+          margin: 15px;
+      }
+  
+      .info{
+          font-size: 1.2em;
+          padding: 15px;
+      }
+  
+      img {
+          max-width: 250px;
+          margin: 35px auto 15px;
+      }
+  
+      .tribute-style{
+          margin: 50px 0 0 20px;
+      }
+  
+      ul{
+          padding: 10px 15px 0 25px;
+      }
+  
+      .link{
+          padding: 30px 0;
+          font-size: 1.1em;
+      }
+  
+      .footer{
+          padding: 15px 20px;
+          font-size: 0.9em;
+      }
+  }
+  /* MEDIA QUERY 600 END */
