@@ -7,6 +7,6 @@ Completed project
 
 26 May 2019: Updated CSS
 
-Moved the font family to the body selector
-Made line height of list items to 1.75
-Changed border radius of image to 3px
+- Moved the font family to the body selector
+- Made line height of list items to 1.75
+- Changed border radius of image to 3px
