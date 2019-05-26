@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
-      font-family: 'Open Sans', sans-serif;	
-      margin: 0;
-      padding: 0;
+    margin: 0;
+    padding: 0;
   }
   
   body{
+      font-family: 'Open Sans', sans-serif;	
       font-size: 20px;
   }
   
@@ -49,7 +49,7 @@
     max-width: 350px;
        display: block;
     height: auto;
-      border-radius: 50%;
+      border-radius: 3px;
       margin: 75px auto 15px;
       box-shadow: 1px 1px 10px 1px #333;
   }
@@ -68,7 +68,7 @@
       padding: 20px 50px;
   }
   ul li{
-      margin-bottom: 5px;
+	line-height: 1.75;
   }
   
   .link{
